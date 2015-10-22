@@ -1,0 +1,15 @@
+<server description="new server">
+
+    <!-- Enable features -->
+    <featureManager>
+		<feature>jaxrs-2.0</feature>
+        <feature>localConnector-1.0</feature>
+    </featureManager>
+
+    <!-- To access this server from a remote client add a host attribute to the following element, e.g. host="*" -->
+    <httpEndpoint httpPort="9081" httpsPort="9444" id="defaultHttpEndpoint"/>
+
+    <applicationMonitor updateTrigger="mbean"/>
+    
+    <webApplication id="abdera-jaxrs-application" location="abdera-jaxrs-application.war" name="abdera-jaxrs-application"/>
+</server>

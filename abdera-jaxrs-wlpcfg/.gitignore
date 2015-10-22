@@ -1,0 +1,11 @@
+/.settings/
+/target/
+/.project
+/.classpath
+/.factorypath
+.*.swp
+/servers/*/apps
+/servers/*/logs
+/servers/*/workarea
+/servers/*/tranlog
+/servers/.classCache

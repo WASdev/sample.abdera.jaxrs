@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JAX-RS 2.0 Examples</title>
+</head>
+<body>
+<p>Here are some sample services that can illustrate how JAX-RS works with Apache Abdera Atom. In all cases, 
+the client servlet(JAX-RS 2.0 Client API) is making requests to the server. Click a link, server return the Atom Object back to the client,
+and the client servlet will print the output in the browser window.</p>
+<p>By watching the output of the server (the console window of WDT, or standard out or console.log), you can see:</br>
+AtomEntryProvider--writable------------</br>
+AtomFeedProvider--writable------------</br>
+AtomFeedProvider--write------------</br>
+</p>
+<ul>
+<li><a href="/abdera-jaxrs-application/abdera?path=atom/blogservice">Get Blog Services</a></li>
+<li><a href="/abdera-jaxrs-application/abdera?path=atom/blogservice/blogs/0">Get Blog ID=0</a></li>
+<li><a href="/abdera-jaxrs-application/abdera?path=atom/blogservice/blogs/1">Get Blog ID=1</a></li>
+
+</ul>
+
+</body>
+</html>
