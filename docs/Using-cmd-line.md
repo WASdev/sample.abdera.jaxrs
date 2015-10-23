@@ -17,7 +17,7 @@ This sample can be built using either [Gradle](#gradle-commands) or [Maven](#apa
 ###### [Gradle](http://gradle.org/) commands
 
 ```bash
-$ cd abdera-jaxrs
+$ cd sample.abdera-jaxrs
 $ gradle build publishToMavenLocal
 ```
 
@@ -26,6 +26,7 @@ If you want to also run the functional tests then you need to [Download WAS Libe
 ###### [Apache Maven](http://maven.apache.org/) commands
 
 ```bash
+$ cd sample.abdera-jaxrs
 $ mvn install
 ```
 
