@@ -10,3 +10,4 @@
 /servers/*/tranlog
 /servers/.classCache
 /.apt_generated/
+/build/
