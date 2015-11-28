@@ -95,7 +95,7 @@ String getHttpPort() {
 }
 
 liberty {
-    wlpDir = owner.hasProperty('libertyRoot') ? "${libertyRoot}" : null
+    installDir = owner.hasProperty('libertyRoot') ? "${libertyRoot}" : null
     serverName = 'jaxrsSample'
     userDir = '../abdera-jaxrs-wlpcfg'
     clean = true
